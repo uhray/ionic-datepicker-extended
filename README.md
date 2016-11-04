@@ -1,3 +1,7 @@
+This is an extension of the plugin made by rajeshwarpatlolla called ionic-datepicker. As main difference between this extention and his source is that now, the day change if the user changes either the month or the year (see gif).
+
+![ionic-datepicker-extension](http://i.makeagif.com/media/11-04-2016/M72mip.gif)
+
 [![bitHound Score](https://www.bithound.io/github/rajeshwarpatlolla/ionic-datepicker/badges/score.svg)](https://www.bithound.io/github/rajeshwarpatlolla/ionic-datepicker)
 
 ##Introduction:
@@ -20,11 +24,11 @@ From version 1.0.0, this component has got so many new features and the way you 
 
 1) In your project folder, please install this plugin using bower
 
-`bower install ionic-datepicker --save`
+`bower install ionic-datepicker-extended --save`
 
 This will install the latest version of this plugin. If you wish to install any specific version(eg : 0.9.0) then
 
-`bower install ionic-datepicker#0.9.0 --save`
+`bower install ionic-datepicker-extended#1.2.2 --save`
 
 2) Specify the path of  `ionic-datepicker.bundle.min.js` in your `index.html` file.
 
