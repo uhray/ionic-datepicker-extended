@@ -1,6 +1,6 @@
 {
-  "name": "ionic-datepicker",
-  "version": "1.2.1",
+  "name": "ionic-datepicker-extended",
+  "version": "1.2.2",
   "authors": [
     "rajeshwarpatlolla <rajeshwar.patlolla@gmail.com>"
   ],
@@ -9,6 +9,7 @@
     "./dist/ionic-datepicker.bundle.min.js"
   ],
   "keywords": [
+    "ionic-datepicker-extended",
     "ionic-datepicker",
     "ionic",
     "datepicker",
