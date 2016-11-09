@@ -3,13 +3,6 @@ This is an extension of the plugin made by rajeshwarpatlolla called ionic-datepi
 
 ![ionic-datepicker-extension](http://i.makeagif.com/media/11-04-2016/M72mip.gif)
 
-[![bitHound Score](https://www.bithound.io/github/rajeshwarpatlolla/ionic-datepicker/badges/score.svg)](https://www.bithound.io/github/rajeshwarpatlolla/ionic-datepicker)
-
-No additional plugins required for this component.
-This plugin is completely open source. Please rate this plugin @ [Ionic Market]The ionic-datepicker source can be found in (http://market.ionic.io/plugins/ionicdatepicker)
-
-[View Demo](http://rajeshwarpatlolla.github.io/DatePickerForIonicFramework/demo/ "Demo")
-
 ##Prerequisites.
 
 * node.js, npm
@@ -31,7 +24,7 @@ This will install the latest version of this plugin. If you wish to install any 
 
 ````html
 <!-- path to ionic -->
-<script src="lib/ionic-datepicker/dist/ionic-datepicker.bundle.min.js"></script>
+<script src="lib/ionic-datepicker/dist/ionic-datepicker-extended.bundle.min.js"></script>
 ````
 
 3) In your application's main module, inject the dependency `ionic-datepicker`, in order to work with this plugin
@@ -162,7 +155,6 @@ The properties you can configure are as follows.
 Apart from the config method, you can re configure all options in the controller also. If you again set any of the properties, they will be overridden by the values mentioned in the controller. This will be useful if there are multiple date pickers in the app, which has different properties.
 
 In all the above steps the only mandatory thing is the `callback` where you will get the selected date value.
-
 
 ##Screen Shots:
 
@@ -312,63 +304,3 @@ c) New CSS
 
 d) Disabling a particular day of the calendar.
 
-Few more features are also added apart from the above mentioned features.
-
-
-**BugFixes**
-
-[Bug#88](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/88),
-[Bug#94](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/94),
-[Bug#101](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/101),
-[Bug#112](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/112),
-[Bug#114](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/114),
-[Bug#116](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/116),
-[Bug#117](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/117),
-[Bug#120](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/120),
-[Bug#128](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/128),
-[Bug#129](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/129),
-[Bug#133](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/133),
-[Bug#145](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/145),
-[Bug#146](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/146),
-[Bug#151](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/151),
-[Bug#154](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/154),
-[Bug#161](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/161),
-[Bug#163](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/163),
-[Bug#166](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/166),
-[Bug#168](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/168),
-[Bug#171](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/171)
-
-### 14) v1.1.0
-
-**BugFixes**
-
-[Bug#178](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/178),
-[Bug#179](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/179),
-[Bug#180](https://github.com/rajeshwarpatlolla/ionic-datepicker/issues/180)
-
-### 15) v1.2.0
-
-Lots of bug fixes. Lots of PR's merged.
-
-CSS changes for popup, so that all the dates of all the months fits in the specified height.
-
-### 16) v1.2.1
-
-Version modified to match with the current release version.
-
-
-##License:
-[MIT](https://github.com/rajeshwarpatlolla/ionic-datepicker/blob/master/LICENSE.MD "MIT")
-
-##Contact:
-Gmail : rajeshwar.patlolla@gmail.com
-
-Github : https://github.com/rajeshwarpatlolla
-
-Twitter : https://twitter.com/rajeshwar_9032
-
-Facebook : https://www.facebook.com/rajeshwarpatlolla
-
-Paypal : rajeshwar.patlolla@gmail.com
-
-Comment or Rate it : http://market.ionic.io/plugins/ionicdatepicker
