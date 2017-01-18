@@ -70,7 +70,7 @@ angular.module('ionic-datepicker.provider', [])
         newSelectedDate.setMonth($scope.currentDate.getMonth());
         newSelectedDate.setYear($scope.currentDate.getFullYear());
         $scope.selctedDateEpoch = newSelectedDate.getTime();
-        $scope.mainObj.callback($scope.selctedDateEpoch);
+        //$scope.mainObj.callback($scope.selctedDateEpoch);
       }
 
       //Date selected
